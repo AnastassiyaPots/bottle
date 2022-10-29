@@ -243,6 +243,134 @@ header {
     text-decoration: none;
 }
 
+.collaboration .collaboration_group {
+    margin-left: 184px;
+    min-width: 836px;
+    min-height: 253px;
+    margin-top: 300px;
+    display: flex;
+}
+
+.collaboration .collaboration_group .group {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collaboration .collaboration_group .group_one {
+    margin-top: 34px;
+}
+
+.collaboration .collaboration_group .group .group_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #414141;
+}
+
+.collaboration .collaboration_group .group .group_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414141;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.collaboration .collaboration_group .group_one .group_header {
+    margin-top: 25px;
+}
+
+.collaboration .collaboration_group .group_two .group_header {
+    margin-top: 38px;
+}
+
+.collaboration .collaboration_group .group_three .group_header {
+    margin-top: 32.3px;
+}
+
+.work {
+    margin-top: 102px;
+    min-height: 818px;
+}
+
+.work .work_conteiner {
+    padding: 22px 0px 0px 0px;
+    width: 414px;
+    height: 288px;
+}
+
+.work .work_img {
+    position: absolute;
+    left: 707px;
+    top: 0px;
+}
+
+.work .work_conteiner .work_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 44px;
+    color: #414141; 
+}
+.work .work_conteiner .work_item {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #414141;
+}
+
+.work .work_conteiner .work_btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #414141;
+    display: inline-block;
+    margin-top: 44px;
+    background-color: #F7F7F4;
+    border: 1px solid #6AA089;
+    border-radius: 10px;
+    padding: 20px 52px 20px 52px; 
+    text-decoration: none;
+}
+
+.work .work_group {
+    margin-left: 184px;
+    min-width: 869px;
+    min-height: 262px;
+    margin-top: 300px;
+    display: flex;
+}
+
+.work .work_group .group {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work .work_group .group .group_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #414141;
+}
+
+
+
+
+
+
+
 
 
 
