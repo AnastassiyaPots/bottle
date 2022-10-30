@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #414141;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
 }
 
 h1, h2 {
@@ -24,7 +30,6 @@ header {
 .first {
     height: 82px;
     background: rgba(247, 247, 244, 0.9);
-    position: relative;
 }
 
 .menu .menu_item a, .logo a {
@@ -42,6 +47,7 @@ header {
     line-height: 20px;
     letter-spacing: 0.5px;
 }
+
 
 .menu {
     float: left;
@@ -89,7 +95,7 @@ header {
 .first .first_img {
     position: absolute;
     top: 0px;
-    left: 616px;
+    left: 696px;
     z-index: -1;
 }
 
@@ -325,7 +331,7 @@ header {
     color: #414141;
 }
 
-.work .work_conteiner .work_btn {
+.work .work_conteiner .work_btn, .motivation .motivation_conteiner .motivation_btn {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -365,12 +371,197 @@ header {
     color: #414141;
 }
 
+.work .work_group .group_one .group_header {
+    margin-top: 30px;
+}
+
+.work .work_group .group_two .group_header, .group_three .group_header {
+    margin-top: 20px;
+}
+
+.work .work_group .group .group_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414141;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.motivation {
+    min-height: 808px;
+    margin-top: 100px;
+}
+
+.motivation .motivation_img {
+    position: absolute;
+    top: 0px;
+    left: -104px;
+    z-index: -1;
+}
+
+.motivation .motivation_conteiner {
+    width: 548px;
+    height: 266px;
+    margin-left: 547px;
+}
+
+.motivation .motivation_conteiner .motivation_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 44px;
+    color: #414141;
+}
+
+.motivation .motivation_conteiner .motivation_item{
+    margin-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #414141;
+}
+
+.motivation .motivation_group {
+    margin-top: 293px;
+    display: flex;
+    margin-left: 192px;
+    min-width: 858px;
+    min-height: 237px;
+}
+
+.motivation .motivation_group .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+}
+
+.motivation .motivation_group .group_one .group_img {
+    margin-top: 10px;
+} 
+
+.motivation .motivation_group .group_one .group_header {
+    margin-top: 34px;
+}
+
+.motivation .motivation_group .group_two .group_header {
+    margin-top: 25px;
+}
+
+.motivation .motivation_group .group_three .group_header {
+    margin-top: 15px;
+}
+
+.motivation .motivation_group .group_item {
+    text-align: center;
+    margin-top: 11px;
+}
+
+.team {
+    margin-top: 100px;
+    min-height: 333px;
+}
 
 
+.team .team_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #414141;
+    margin-left: 279px;
+}
 
+.team .team_subheader {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #414141;
+    margin-left: 284px;
+    margin-top: 42px;
+}
 
+.team .team_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #414141;
+    margin-top: 27px;
+    margin-left: 290px;
+}
 
+.team .team_img {
+    position: absolute;
+    top: 0px;
+    left: 1398px;
+}
 
+.oh {
+    margin-top: 145px;
+    min-height: 245px;
+}
 
+.oh .oh_header {
+    margin-left: 326px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #414141;
+}
 
+.oh .oh_img {
+    position: absolute;
+    z-index: -1;
+    left: 701px;
+    top: 95px;
+}
 
+.oh .oh_btn {
+    margin-left: 701px;
+    margin-top: 52px;
+    background-color: #6AA089;
+    border: 1px solid #6AA089;
+    border-radius: 10px;
+    padding: 21px 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    margin-top: 100px;
+    min-height: 249px;
+    background: #F7F7F4;
+}
+
+footer .footer_logo {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+footer .footer_item {
+    margin-top: 32px;
+}
+
+footer .footer_menu {
+    margin-top: 40px;
+    display: flex;
+}
+
+footer .footer_menu li {
+    list-style-type: none;
+}
