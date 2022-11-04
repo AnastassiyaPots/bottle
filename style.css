@@ -250,15 +250,17 @@ header {
 }
 
 .collaboration .collaboration_group {
-    margin-left: 184px;
     min-width: 836px;
     min-height: 253px;
     margin-top: 300px;
     display: flex;
+    justify-content: center;
 }
 
 .collaboration .collaboration_group .group {
-    width: 33.33%;
+    height: 72px;
+    margin-right: 95px;
+    /* width: 33.33%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,11 +350,11 @@ header {
 }
 
 .work .work_group {
-    margin-left: 184px;
     min-width: 869px;
     min-height: 262px;
     margin-top: 300px;
     display: flex;
+    justify-content: center;
 }
 
 .work .work_group .group {
@@ -428,7 +430,7 @@ header {
 .motivation .motivation_group {
     margin-top: 293px;
     display: flex;
-    margin-left: 192px;
+    justify-content: center;
     min-width: 858px;
     min-height: 237px;
 }
@@ -474,7 +476,6 @@ header {
     line-height: 60px;
     text-align: center;
     color: #414141;
-    margin-left: 279px;
 }
 
 .team .team_subheader {
@@ -484,7 +485,6 @@ header {
     line-height: 28px;
     text-align: center;
     color: #414141;
-    margin-left: 284px;
     margin-top: 42px;
 }
 
@@ -496,7 +496,6 @@ header {
     text-align: center;
     color: #414141;
     margin-top: 27px;
-    margin-left: 290px;
 }
 
 .team .team_img {
@@ -511,7 +510,6 @@ header {
 }
 
 .oh .oh_header {
-    margin-left: 326px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -528,7 +526,7 @@ header {
 }
 
 .oh .oh_btn {
-    margin-left: 701px;
+    margin-left: 553px;
     margin-top: 52px;
     background-color: #6AA089;
     border: 1px solid #6AA089;
@@ -544,7 +542,7 @@ header {
 
 footer {
     margin-top: 100px;
-    min-height: 249px;
+    min-height: 239px;
     background: #F7F7F4;
 }
 
@@ -553,15 +551,42 @@ footer .footer_logo {
     margin-top: 35px;
 }
 
-footer .footer_item {
+footer .footer_item, .footer_block .footer_menu a {
     margin-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414141;
 }
 
-footer .footer_menu {
+footer .footer_block {
     margin-top: 40px;
+    display: flex;
+    justify-content: start;
+}
+
+footer .footer_block .footer_menu {
     display: flex;
 }
 
-footer .footer_menu li {
+footer .footer_block .footer_menu li {
     list-style-type: none;
+}
+
+footer .footer_block .footer_menu .menu_item {
+    margin-right: 18px;
+}
+
+footer .footer_block .footer_net {
+    display: flex;
+    margin-left: auto;
+}
+
+footer .footer_block .footer_net .net {
+    margin-right: 16px;
+}
+
+.footer_block .footer_menu a {
+    margin-top: 0px;
 }
