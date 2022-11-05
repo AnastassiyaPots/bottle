@@ -92,6 +92,11 @@ header {
     padding: 16px 24px 16px 26px;
 }
 
+.header_btn1:hover, .header_btn2:hover, .first_btn .btn2:hover, .first_btn .btn1:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
 .first .first_img {
     position: absolute;
     top: 0px;
@@ -141,6 +146,7 @@ header {
     color: #FFFFFF;
     margin-right: 28px;
 }
+
 
 .header_btn2 {
     background-color: #F7F7F4;
@@ -249,17 +255,24 @@ header {
     text-decoration: none;
 }
 
+.collaboration .collaboration_btn:hover, .work .work_conteiner .work_btn:hover, .motivation .motivation_conteiner .motivation_btn:hover {
+    background-color: #6AA089;
+    border: 1px solid #F7F7F4;
+    transition: 0.7s;
+}
+
 .collaboration .collaboration_group {
     min-width: 836px;
     min-height: 253px;
     margin-top: 300px;
     display: flex;
     justify-content: center;
+    margin-left: 83px;
 }
 
 .collaboration .collaboration_group .group {
     height: 72px;
-    margin-right: 95px;
+    margin-right: 102px;
     /* width: 33.33%; */
     display: flex;
     flex-direction: column;
@@ -355,13 +368,15 @@ header {
     margin-top: 300px;
     display: flex;
     justify-content: center;
+    margin-left: 83px;
 }
 
 .work .work_group .group {
-    width: 33.33%;
+    /* width: 33.33%; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 102px;
 }
 
 .work .work_group .group .group_header {
@@ -433,13 +448,15 @@ header {
     justify-content: center;
     min-width: 858px;
     min-height: 237px;
+    margin-left: 83px;
 }
 
 .motivation .motivation_group .group {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33.33%;
+    /* width: 33.33%; */
+    margin-right: 102px;
 }
 
 .motivation .motivation_group .group_one .group_img {
@@ -467,7 +484,6 @@ header {
     margin-top: 100px;
     min-height: 333px;
 }
-
 
 .team .team_header {
     font-style: normal;
@@ -501,7 +517,7 @@ header {
 .team .team_img {
     position: absolute;
     top: 0px;
-    left: 1398px;
+    left: 1218px;
 }
 
 .oh {
@@ -521,12 +537,12 @@ header {
 .oh .oh_img {
     position: absolute;
     z-index: -1;
-    left: 701px;
+    left: 543px;
     top: 95px;
 }
 
 .oh .oh_btn {
-    margin-left: 553px;
+    margin-left: 542px;
     margin-top: 52px;
     background-color: #6AA089;
     border: 1px solid #6AA089;
@@ -540,9 +556,16 @@ header {
     color: #FFFFFF;
 }
 
+.oh .oh_btn:hover {
+    background-color: #F7F7F4;
+    border: 1px solid #6AA089;
+    color: #414141;
+    transition: 0.7s;
+}
+
 footer {
     margin-top: 100px;
-    min-height: 239px;
+    min-height: 262px;
     background: #F7F7F4;
 }
 
